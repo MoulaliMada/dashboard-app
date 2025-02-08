@@ -1,0 +1,24 @@
+.profile_img{
+    padding: 0px;
+}
+.header{
+    display: none;
+}
+.profil_name{
+    color: rgb(35, 35, 35);
+    font-size: 17px;
+}
+.search_input{
+    padding: 3px;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+@media(min-width:768px){
+    .header{
+        display: flex;
+        align-items: center;
+        padding-top: 12px;
+        width: 100%;
+    }
+}

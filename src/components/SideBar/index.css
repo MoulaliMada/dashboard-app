@@ -1,0 +1,70 @@
+.profile_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.profile_con {
+  display: flex;
+  align-items: center;
+}
+.blue_box {
+  display: none;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.side_bar{
+    background-color: white;
+    padding: 5px;
+    height: 100%;
+}
+.pofile_name{
+    font-size: 15px;
+    color: #323030;
+}
+.designation{
+    color: #696262;
+    font-size: 12px;
+}
+.icon{
+    color: #696262;
+    font-size: 19px;
+    margin-left: 15px;
+}
+.dropdown_ul{
+    list-style-type: none;
+    padding: 0;
+}
+.dropdown_li{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.active_option{
+    color: rgb(66, 66, 233);
+}
+.option{
+    color: #323030;
+}
+
+@media(min-width:768px){
+    .side_bar{
+        width:20%;
+        height: 100%;
+    }
+    .blue_box {
+        display: flex;
+        color: rgb(34, 34, 190);
+        text-align: center;
+        width: 100%;
+      }
+}

@@ -1,0 +1,47 @@
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.card {
+  padding: 20px;
+  color: white;
+  
+}
+.stock_card {
+  color: white;
+  background: linear-gradient(to right, #d78ec4, #ff00a6);
+  border-radius: 10px;
+}
+.profit_card {
+    color: white;
+    background: linear-gradient(to right, #7a71cf, #341de6);
+    border-radius: 10px;
+  }
+  .inique_card {
+    color: white;
+    background: linear-gradient(to right, #bd8154, #d5791c);
+    border-radius: 10px;
+  }
+.card_p {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+}
+.card_h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .card_ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    padding: 20px;
+    color: white;
+    width: 26%;
+  }
+}
